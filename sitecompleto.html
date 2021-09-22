@@ -15,54 +15,41 @@
     padding: 15px;
 }
 
-.redsco{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.center{
-    text-align: center;
-}
     </style>
 
-    <title>Hello, world!</title>
+    <title>GOMESA!</title>
   </head>
   <body>
       <!--Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Gomesa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Links</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Temas
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">IA</a></li>
+                  <li><a class="dropdown-item" href="#">IOT</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Outros</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Procure..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
             </form>
           </div>
         </div>
@@ -78,17 +65,17 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/o-que-e-html-1280x720.png" class="d-block w-100" alt="HTML">
+            <img src="https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap.jpg" class="d-block w-100" alt="BOOTSTRAP">
             <div class="carousel-caption d-none d-md-block">
-              <h5>HTML</h5>
-              <p>Linguagem de marcação</p>
+              <h5>BOOTSTRAP</h5>
+              <p>Framework de front-end</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="https://cdn.wallpapersafari.com/94/72/tNWLMf.png" class="d-block w-100" alt="CSS">
+            <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/o-que-e-html-1280x720.png" class="d-block w-100" alt="CSS">
             <div class="carousel-caption d-none d-md-block">
-              <h5>CSS</h5>
-              <p>Para estilização da página web.</p>
+              <h5>HTML</h5>
+              <p>Linguagem de marcação.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -109,40 +96,33 @@
         </button>
       </div>
       <!--/Carrosel-->
-
-      <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">Este é um jumbotron modificadp</p>
-          </div>
-      </div>
-
-
+    
       <!--cards-->
 
-      <div class="card-group container">
+      <div class="card-group container mt-5">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/img/1.png" class="card-img-top" alt="GitHub">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">GitHub</h5>
+            <p class="card-text">O GitHub é uma excelente ferramenta para o trabalho em equipe. Quando se trata de um software ou um site que precisa ser criado em conjunto, por exemplo, a plataforma online facilita, sem dúvidas, a gestão do projeto.</p>
+            <p class="card-text"><small class="text-muted">Atualizado</small></p>
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/img/2.png" class="card-img-top" alt="instagram">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Instagram</h5>
+            <p class="card-text">
+              Instagram é uma rede social de fotos para usuários de Android e iPhone. Basicamente se trata de um aplicativo gratuito que pode ser baixado e, a partir dele, é possível tirar fotos com o celular, aplicar efeitos nas imagens e compartilhar com seus amigos.</p>
+            <p class="card-text"><small class="text-muted">Atualizado</small></p>
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/img/3.png" class="card-img-top" alt="LinkeIn">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">O Linkedin é uma rede social voltada para relacionamentos profissionais. Seus principais objetivos são: manter uma lista de contatos. encontrar pessoas por meio de contatos das pessoas que você conhece.</p>
+            <p class="card-text"><small class="text-muted">Atualizado</small></p>
           </div>
         </div>
       </div>
@@ -156,7 +136,12 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Esse incidunt commodi vel at dolorem cum, consequatur sequi 
                     eaque ratione saepe laboriosam 
-                    odio animi. Velit</p><p>, magni? Id nam ipsa dignissimos debitis.
+                    odio animi. Velit, magni? Id nam ipsa dignissimos debitis.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Esse incidunt commodi vel at dolorem cum, consequatur sequi 
+                    eaque ratione saepe laboriosam 
+                    odio animi. Velit</p><p> (TEXTO USADO PARA EXEMPLO)
                   </p>
             </div>
         
@@ -167,8 +152,48 @@
         </div>
     </div>
 
+    <!--Form-->
+    <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <h4 class="text-center">
+          Entre em Contato
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+          <div class="form-group">
+            <button class="btn btn-outline-success mt-2">Enviar</button>
+          </div>
+
+        </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.19583408379!2d-46.65807058554304!3d-23.56140906747804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1632319626641!5m2!1spt-BR!2sbr" 
+          width="550" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+  </div>
+    
+    <!--/Form-->
+
+    <!--Rodapé-->
+    <hr>
     <footer>
-        <div class="redsco">
+
+    <div class="row">
+       <div class="col-md-12 d-flex justify-content-center">
             <a href="https://www.linkedin.com/in/vinicius-gomes-296178192/" target="_blank">
                 <img class="tm-social" src="../web/fundamentos-web/assets/img/linkedin.png" alt="LinkeIn">
             </a>
@@ -178,12 +203,20 @@
             <a href="https://github.com/VinyAmaral" target="_blank" >
                 <img class="tm-social" src="./assets/img/github.png" alt="GitHub">
             </a>
-        </div>
+      </div>
+    </div>
         
-        <p class="center">
-        Todos os direitos reservados para: Vinicius G. Amaral&copy;
-        </p>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados para: Vinicius G. Amaral&copy;
+          </p>
+      </div>
+    </div>
+
+       
     </footer>
+     <!--/Rodapé-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
